@@ -1,0 +1,19 @@
+{
+  "name": "MeuAppNativo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.0",
+    "axios": "^0.24.0"  // Para fazer requisições à API
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/runtime": "^7.16.5"
+  }
+}
